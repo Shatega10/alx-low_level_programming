@@ -1,16 +1,19 @@
-#include <main.h>
+#include "main.h"
 /**
-* main - program that prints _putchar.
+* main - Entry point
 *
-* Return: int
+* Description: print _putchar
+*
+* Return: Always 0 (success)
 */
 int main(void)
 {
-int n = 0;
-_putchar(char c);
-n += 1;
-while (n < 9)
+int a;
+char p[] = "_putchar";
+for (a = 0; a <= 7; a++)
 {
+_putchar(p[a]);
+}
 _putchar('\n');
 return (0);
 }
